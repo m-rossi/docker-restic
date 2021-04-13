@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 alpine:latest as bzip
 ARG TARGETPLATFORM
-ARG RESTIC_VERSION=0.12.0
+ARG RESTIC_VERSION
 
 RUN apk add bzip2
 
